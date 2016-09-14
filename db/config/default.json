@@ -1,0 +1,19 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "mongodb": "mongodb://localhost:27017/taskflow",
+  "public": "../public/",
+  "auth": {
+    "token": {
+      "secret": "W5WQr/mZ+9ULcQLxpPdOWschEc/VWk7uOvg/TyS8rKphbMNWIaQbxxELQAG3AAr4sovMaoiglAxy/0MjPyD8IQ=="
+    },
+    "local": {},
+    "google": {
+      "clientID": "your google client id",
+      "clientSecret": "your google client secret",
+      "permissions": {
+        "scope": ["profile"]
+      }
+    }
+  }
+}
